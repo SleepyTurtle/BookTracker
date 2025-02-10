@@ -55,7 +55,6 @@ C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTr
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
@@ -66,7 +65,6 @@ C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTr
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -106,7 +104,6 @@ C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTr
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker\bin\Debug\net8.0\System.Memory.Data.dll
