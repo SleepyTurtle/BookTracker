@@ -4,6 +4,7 @@ namespace BookTracker.Entities
 {
     public class Book
     {
+        [Key]
         public int Id { get; set; }
         [MaxLength(50)]
         public required string Title { get; set; }

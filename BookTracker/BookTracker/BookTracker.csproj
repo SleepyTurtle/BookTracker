@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BookTracker.Client\BookTracker.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
   </ItemGroup>
 
 </Project>
