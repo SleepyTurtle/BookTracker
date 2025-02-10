@@ -7,12 +7,12 @@ namespace BookTracker.Entities
         [Key]
         public int Id { get; set; }
         [MaxLength(50)]
-        public required string Title { get; set; }
+        public string Title { get; set; } = string.Empty;
         [MaxLength(500)]
         public string? Description { get; set; }
         [MaxLength(50)]
-        public required string Author { get; set; }
-        public DateTime DateAdded { get; set; }
+        public string Author { get; set; } = string.Empty;
+        public DateTime DateAdded { get; set; } = DateTime.UtcNow;
         
     }
 }
