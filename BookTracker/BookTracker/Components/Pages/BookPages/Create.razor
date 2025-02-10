@@ -41,12 +41,21 @@
 </div>
 
 <div>
-    <a href="/books">Back to List</a>
+    <a href="/books" class="btn btn-outline-secondary">Back to List</a>
 </div>
 
 @code {
     [SupplyParameterFromForm]
     private Book Book { get; set; } = new();
+
+    private List<string> Publishers { get; } = new()
+    {
+        "Penguin Random House",
+        "HarperCollins",
+        "Macmillan",
+        "Simon & Schuster",
+        "Hachette Book Group",
+    };
 
     // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
     private async Task AddBook()

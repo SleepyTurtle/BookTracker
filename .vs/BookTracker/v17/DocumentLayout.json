@@ -3,27 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|c:\\users\\ian stewart\\documents\\github\\booktracker\\booktracker\\booktracker\\booktracker\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|solutionrelative:booktracker\\booktracker\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|c:\\users\\ian stewart\\documents\\github\\booktracker\\booktracker\\booktracker\\booktracker\\components\\pages\\bookpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|solutionrelative:booktracker\\booktracker\\components\\pages\\bookpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|c:\\users\\ian stewart\\documents\\github\\booktracker\\booktracker\\booktracker\\booktracker\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|solutionrelative:booktracker\\booktracker\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|c:\\users\\ian stewart\\documents\\github\\booktracker\\booktracker\\booktracker\\booktracker\\components\\pages\\bookpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|solutionrelative:booktracker\\booktracker\\components\\pages\\bookpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|c:\\users\\ian stewart\\documents\\github\\booktracker\\booktracker\\booktracker\\booktracker\\components\\pages\\bookpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|solutionrelative:booktracker\\booktracker\\components\\pages\\bookpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|c:\\users\\ian stewart\\documents\\github\\booktracker\\booktracker\\booktracker\\booktracker\\components\\pages\\bookpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|solutionrelative:booktracker\\booktracker\\components\\pages\\bookpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|c:\\users\\ian stewart\\documents\\github\\booktracker\\booktracker\\booktracker\\booktracker\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|solutionrelative:booktracker\\booktracker\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9FDC95F-5AF5-415A-A403-8A3ECFCBE94E}|BookTracker\\BookTracker.Client\\BookTracker.Client.csproj|c:\\users\\ian stewart\\documents\\github\\booktracker\\booktracker\\booktracker\\booktracker.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9FDC95F-5AF5-415A-A403-8A3ECFCBE94E}|BookTracker\\BookTracker.Client\\BookTracker.Client.csproj|solutionrelative:booktracker\\booktracker.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BookTrackerContext_a8fa0b99_212a_48c5_b59f_d9f8cddd38a5/True/SqlTable/dbo.Book.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|c:\\users\\ian stewart\\documents\\github\\booktracker\\booktracker\\booktracker\\booktracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|solutionrelative:booktracker\\booktracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|c:\\users\\ian stewart\\documents\\github\\booktracker\\booktracker\\booktracker\\booktracker\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39C369A0-567F-4354-8E2C-A8EED5657270}|BookTracker\\BookTracker\\BookTracker.csproj|solutionrelative:booktracker\\booktracker\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,21 +42,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "dbo.Book [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BookTrackerContext_a8fa0b99_212a_48c5_b59f_d9f8cddd38a5/True/SqlTable/dbo.Book.sql",
-              "ToolTip": "dbo.Book [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-02-10T23:30:38.139Z",
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Edit.razor",
+              "RelativeDocumentMoniker": "BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Edit.razor",
+              "ToolTip": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Edit.razor",
+              "RelativeToolTip": "BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Edit.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T23:44:17.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Details.razor",
+              "DocumentMoniker": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Details.razor",
+              "RelativeDocumentMoniker": "BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Details.razor",
+              "ToolTip": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Details.razor",
+              "RelativeToolTip": "BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Details.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T23:43:42.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Delete.razor",
+              "RelativeDocumentMoniker": "BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Delete.razor",
+              "ToolTip": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Delete.razor",
+              "RelativeToolTip": "BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Delete.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T23:43:33.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker.Client\\Program.cs",
               "RelativeDocumentMoniker": "BookTracker\\BookTracker.Client\\Program.cs",
@@ -60,33 +98,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Create.razor",
               "DocumentMoniker": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Create.razor",
               "RelativeDocumentMoniker": "BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Create.razor",
               "ToolTip": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Create.razor",
               "RelativeToolTip": "BookTracker\\BookTracker\\Components\\Pages\\BookPages\\Create.razor",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswDcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-10T04:08:46.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BookTracker\\BookTracker\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "BookTracker\\BookTracker\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-10T03:54:42.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\appsettings.json",
               "RelativeDocumentMoniker": "BookTracker\\BookTracker\\appsettings.json",
@@ -99,13 +137,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "BookTracker\\BookTracker\\Entities\\Book.cs",
               "ToolTip": "C:\\Users\\Ian Stewart\\Documents\\GitHub\\BookTracker\\BookTracker\\BookTracker\\BookTracker\\Entities\\Book.cs",
               "RelativeToolTip": "BookTracker\\BookTracker\\Entities\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T01:36:08.244Z",
               "EditorCaption": ""
