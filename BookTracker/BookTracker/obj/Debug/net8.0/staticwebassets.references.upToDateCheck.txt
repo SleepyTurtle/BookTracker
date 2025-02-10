@@ -2,3 +2,6 @@ C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTr
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker.Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker.Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Ian Stewart\Documents\GitHub\BookTracker\BookTracker\BookTracker\BookTracker.Client\obj\Debug\net8.0\staticwebassets.build.json
