@@ -42,6 +42,17 @@ else
                     <InputDate id="dateadded" @bind-Value="Book.DateAdded" class="form-control" />
                     <ValidationMessage For="() => Book.DateAdded" class="text-danger" />
                 </div>
+                <div class="mb-3">
+                    <label for="publisher" class="form-label">Publisher:</label>
+                    <select id="publisher" @bind="Book.Publisher" class="form-control">
+                        <option value="">Select a Publisher</option>
+                        @foreach (var publisher in Publishers)
+                        {
+                            <option value="@publisher">@publisher</option>
+                        }
+                    </select>
+                    <ValidationMessage For="() => Book.Publisher" class="text-danger" />
+                </div>
                 <button type="submit" class="btn btn-primary">Save</button>
             </EditForm>
         </div>
@@ -58,6 +69,16 @@ else
 
     [SupplyParameterFromForm]
     private Book? Book { get; set; }
+
+    private List<string> Publishers { get; } = new()
+    {
+        "Penguin Random House",
+        "HarperCollins",
+        "Macmillan",
+        "Simon & Schuster",
+        "Hachette Book Group",
+        "Test Publisher",
+    };
 
     protected override async Task OnInitializedAsync()
     {

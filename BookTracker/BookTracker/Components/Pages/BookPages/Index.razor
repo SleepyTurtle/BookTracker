@@ -19,6 +19,7 @@
     <PropertyColumn Property="book => book.Description" />
     <PropertyColumn Property="book => book.Author" />
     <PropertyColumn Property="book => book.DateAdded" />
+    <PropertyColumn Property="book => book.Publisher" />
 
     <TemplateColumn Context="book">
         <a href="@($"books/edit?id={book.Id}")">Edit</a> |

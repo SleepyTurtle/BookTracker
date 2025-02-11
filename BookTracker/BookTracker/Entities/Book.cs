@@ -12,7 +12,7 @@ namespace BookTracker.Entities
         public string? Description { get; set; }
         [MaxLength(50)]
         public string Author { get; set; } = string.Empty;
-        public string Publisher { get; set; } = string.Empty;
+        public string? Publisher { get; set; } = "Unknown";
         public DateTime DateAdded { get; set; } = DateTime.UtcNow;
 
     }

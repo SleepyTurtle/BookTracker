@@ -34,7 +34,18 @@
                 <label for="dateadded" class="form-label">DateAdded:</label> 
                 <InputDate id="dateadded" @bind-Value="Book.DateAdded" class="form-control" /> 
                 <ValidationMessage For="() => Book.DateAdded" class="text-danger" /> 
-            </div>        
+            </div>
+            <div class="mb-3">
+                <label for="publisher" class="form-label">Publisher:</label>
+                <select id="publisher" @bind="selectPublisher" class="form-control">
+                    <option value="">Select a Publisher</option>
+                    @foreach (var publisher in Publishers)
+                    {
+                        <option value="@publisher">@publisher</option>
+                    }
+                </select>
+                <ValidationMessage For="() => Book.Publisher" class="text-danger" />
+            </div>
             <button type="submit" class="btn btn-primary">Create</button>
         </EditForm>
     </div>
@@ -48,6 +59,7 @@
     [SupplyParameterFromForm]
     private Book Book { get; set; } = new();
 
+    private string? selectPublisher; //Temp publisher selection for handling null or empty logic
     private List<string> Publishers { get; } = new()
     {
         "Penguin Random House",
@@ -55,11 +67,20 @@
         "Macmillan",
         "Simon & Schuster",
         "Hachette Book Group",
+        "Test Publisher",
     };
 
     // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
     private async Task AddBook()
     {
+        // If no publisher is selected, default to "Unknown" for new entries
+        if (String.IsNullOrEmpty(selectPublisher))
+        {
+            Book.Publisher = "Unknown";
+        }
+        else{
+            Book.Publisher = selectPublisher;
+        }
         using var context = DbFactory.CreateDbContext();
         context.Book.Add(Book);
         await context.SaveChangesAsync();
