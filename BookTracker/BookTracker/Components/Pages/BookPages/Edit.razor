@@ -44,13 +44,13 @@ else
                 </div>
                 <div class="mb-3">
                     <label for="publisher" class="form-label">Publisher:</label>
-                    <select id="publisher" @bind="Book.Publisher" class="form-control">
+                    <InputSelect id="publisher" @bind-Value="Book.Publisher" class="form-control">
                         <option value="">Select a Publisher</option>
                         @foreach (var publisher in Publishers)
                         {
                             <option value="@publisher">@publisher</option>
                         }
-                    </select>
+                    </InputSelect>
                     <ValidationMessage For="() => Book.Publisher" class="text-danger" />
                 </div>
                 <button type="submit" class="btn btn-primary">Save</button>
