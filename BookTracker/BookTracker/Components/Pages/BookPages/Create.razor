@@ -1,8 +1,10 @@
 ﻿@page "/books/create"
+@using BookTracker.Services
 @using Microsoft.EntityFrameworkCore
 @using BookTracker.Entities
 @inject IDbContextFactory<BookTracker.Data.BookTrackerContext> DbFactory
 @inject NavigationManager NavigationManager
+@inject PublisherService PublisherService
 
 <PageTitle>Create</PageTitle>
 
@@ -59,20 +61,16 @@
     [SupplyParameterFromForm]
     private Book Book { get; set; } = new();
 
-    private List<String> Publishers { get; } = new()
+    private List<String> Publishers { get; set; } = new();
+
+    protected override void OnInitialized()
     {
-        "Penguin Random House",
-        "HarperCollins",
-        "Macmillan",
-        "Simon & Schuster",
-        "Hachette Book Group",
-        "Test Publisher",
-    };
+		Publishers = PublisherService.GetPublishers();
+    }
 
     // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
     private async Task AddBook()
     {
-        Console.WriteLine($"Publisher: {Book.Publisher}"); // Debugging
         using var context = DbFactory.CreateDbContext();
         context.Book.Add(Book);
         await context.SaveChangesAsync();

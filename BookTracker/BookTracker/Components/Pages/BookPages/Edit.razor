@@ -1,8 +1,10 @@
 ﻿@page "/books/edit"
+@using BookTracker.Services
 @using Microsoft.EntityFrameworkCore
 @using BookTracker.Entities
 @inject IDbContextFactory<BookTracker.Data.BookTrackerContext> DbFactory
 @inject NavigationManager NavigationManager
+@inject PublisherService PublisherService
 
 <PageTitle>Edit</PageTitle>
 
@@ -70,15 +72,12 @@ else
     [SupplyParameterFromForm]
     private Book? Book { get; set; }
 
-    private List<string> Publishers { get; } = new()
+    private List<String> Publishers { get; set; } = new();
+
+    protected override void OnInitialized()
     {
-        "Penguin Random House",
-        "HarperCollins",
-        "Macmillan",
-        "Simon & Schuster",
-        "Hachette Book Group",
-        "Test Publisher",
-    };
+        Publishers = PublisherService.GetPublishers();
+    }
 
     protected override async Task OnInitializedAsync()
     {

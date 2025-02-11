@@ -3,10 +3,14 @@ using BookTracker.Components;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using BookTracker.Data;
+using BookTracker.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContextFactory<BookTrackerContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BookTrackerContext") ?? throw new InvalidOperationException("Connection string 'BookTrackerContext' not found.")));
+
+//Register PublisherService
+builder.Services.AddSingleton<PublisherService>();
 
 builder.Services.AddQuickGridEntityFrameworkAdapter();
 
