@@ -1,22 +1,20 @@
 ﻿<!-- Generic Search Bar
 param: List of generic entities-->
-<h3>SearchBox</h3>
 @typeparam TEntity // Generic type parameter
 
 <!-- Search Bar -->
 <input class="form-control" style="max-width:600px"
-	   @bind="searchItem"
-	   />
+	   @bind="searchItem"/>
+
 <!-- Search Button -->
 <button class="btn btn-primary" 
 	@onclick="OnSearchClicked">
 	Search
 </button>
 
-
 @code {
 	[Parameter]
-	public List<TEntity> Items { get; set; }
+	public IQueryable<TEntity> Items { get; set; }
 
 	[Parameter]
 	public EventCallback<string> OnSearch { get; set; } //When user clicks search
@@ -27,5 +25,4 @@ param: List of generic entities-->
 	{
 		await OnSearch.InvokeAsync(searchItem);
 	}
-
 }

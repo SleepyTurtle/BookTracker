@@ -3,6 +3,7 @@
 @using Microsoft.AspNetCore.Components.QuickGrid
 @using BookTracker.Entities
 @using BookTracker.Data
+@using System.Collections
 @implements IAsyncDisposable
 @inject IDbContextFactory<BookTracker.Data.BookTrackerContext> DbFactory
 
@@ -14,7 +15,7 @@
     <a href="books/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Book">
+<QuickGrid Class="table" Items="FilteredBooks">
     <PropertyColumn Property="book => book.Title" />
     <PropertyColumn Property="book => book.Description" />
     <PropertyColumn Property="book => book.Author" />
@@ -30,11 +31,20 @@
 
 @code {
     private BookTrackerContext context = default!;
+    private IQueryable<Book> Books = Enumerable.Empty<Book>().AsQueryable();
+    private IQueryable<Book> FilteredBooks = Enumerable.Empty<Book>().AsQueryable();
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        context = DbFactory.CreateDbContext();
+        context = await DbFactory.CreateDbContextAsync();
+        Books = context.Book.AsQueryable();
+        FilteredBooks = Books;
     }
 
-    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+    public async ValueTask DisposeAsync(){
+        if (context is not null)
+        {
+            await context.DisposeAsync();
+        }
+    }
 }
