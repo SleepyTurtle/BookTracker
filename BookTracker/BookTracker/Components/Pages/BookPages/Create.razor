@@ -54,7 +54,7 @@
 </div>
 
 <div>
-    <a href="/books" class="btn btn-outline-secondary">Back to List</a>
+    <a href="/books?titleFilter=" class="btn btn-outline-secondary">Back to List</a>
 </div>
 
 @code {
@@ -74,6 +74,6 @@
         using var context = DbFactory.CreateDbContext();
         context.Book.Add(Book);
         await context.SaveChangesAsync();
-        NavigationManager.NavigateTo("/books");
+        NavigationManager.NavigateTo("/books?titleFilter=");
     }
 }

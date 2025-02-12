@@ -62,7 +62,7 @@ else
 }
 
 <div>
-    <a href="/books" class="btn btn-outline-secondary">Back to List</a>
+    <a href="/books?titleFilter=" class="btn btn-outline-secondary">Back to List</a>
 </div>
 
 @code {
@@ -113,7 +113,7 @@ else
             }
         }
 
-        NavigationManager.NavigateTo("/books");
+        NavigationManager.NavigateTo("/books?titleFilter=");
     }
 
     private bool BookExists(int id)

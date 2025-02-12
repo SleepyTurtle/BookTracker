@@ -11,13 +11,20 @@
 
 <h1>Index</h1>
 
+<div>
+    <form action="/books?titleFilter=" data-enhance>
+        <input type="search" name="titleFilter" />
+        <input type="submit" value="Search by Title" />
+    </form>
+</div>
+
 <p>
     <a href="books/create">Create New</a>
 </p>
 
 <QuickGrid Class="table" Items="FilteredBooks">
     <PropertyColumn Property="book => book.Title" />
-    <PropertyColumn Property="book => book.Description" />
+    <PropertyColumn Property="book => book.Description" class="w-40"/>
     <PropertyColumn Property="book => book.Author" />
     <PropertyColumn Property="book => book.DateAdded" />
     <PropertyColumn Property="book => book.Publisher" />
@@ -31,20 +38,17 @@
 
 @code {
     private BookTrackerContext context = default!;
-    private IQueryable<Book> Books = Enumerable.Empty<Book>().AsQueryable();
-    private IQueryable<Book> FilteredBooks = Enumerable.Empty<Book>().AsQueryable();
 
-    protected override async Task OnInitializedAsync()
+    [SupplyParameterFromQuery]
+    private string? titleFilter { get; set; }
+
+    protected override void OnInitialized()
     {
-        context = await DbFactory.CreateDbContextAsync();
-        Books = context.Book.AsQueryable();
-        FilteredBooks = Books;
+        context = DbFactory.CreateDbContext();
     }
 
-    public async ValueTask DisposeAsync(){
-        if (context is not null)
-        {
-            await context.DisposeAsync();
-        }
-    }
+    private IQueryable<Book> FilteredBooks => 
+	    context.Book.Where(book => book.Title.Contains(titleFilter));
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
 }
